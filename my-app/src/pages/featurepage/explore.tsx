@@ -4,7 +4,10 @@ import CoinCard from "./coin-card";
 
 const Explore = () => {
   return (
-    <section className="w-[100%] py-[128px] md:py-[140px] bg-slate-200 clippath">
+    <section
+      className="w-[100%] py-[128px] md:py-[140px] bg-slate-200 clippath"
+      id="featured"
+    >
       <div
         className={`${styles.boxWidth} flex justify-center items-center py-[16px] mx-auto md:flex-col ss:px-[16px] conatainer`}
         id="#featured"
