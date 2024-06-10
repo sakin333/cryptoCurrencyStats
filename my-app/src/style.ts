@@ -17,7 +17,7 @@ const styles = {
 
   // Buttons
   button:
-    "px-8 py-3 border border-green-600 bg-green-600 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-lg font-semibold cursor-pointer hover:shadow-md ss:w-full my-4",
+    "px-8 py-3 border border-purple-600 bg-purple-600 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-lg font-semibold cursor-pointer hover:shadow-sm ss:w-full my-4",
   buttonSec:
     "px-5 py-2.5 border border-green-600 bg-green-600 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-sm font-semibold cursor-pointer hover:shadow-md ss:w-full my-4",
 
@@ -42,7 +42,7 @@ const styles = {
   // Borders
   border: "border-b-4 border-green-600",
   borderRounded: "border border-gray-300 rounded-lg",
-  borderError: "border-red-600",
+  borderError: "border-2 border-red-600",
 
   // Backgrounds and Shadows
   bgWhite: "bg-white",
