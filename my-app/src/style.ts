@@ -61,6 +61,8 @@ const styles = {
   // Animations
   transition: "transition ease-in-out duration-200",
   hoverScale: "transform hover:scale-105",
+
+  bar: "w-[30px] border-b-4 border-green-600 my-[8px]",
 };
 
 export default styles;
