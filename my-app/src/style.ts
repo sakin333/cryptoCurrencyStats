@@ -1,6 +1,6 @@
 const styles = {
   // Layout
-  boxWidth: "max-w-[1240px] mx-auto",
+  boxWidth: "max-w-[1280px] mx-auto",
   container: "mx-auto px-4 sm:px-6 lg:px-8",
 
   // Headings
@@ -17,13 +17,13 @@ const styles = {
 
   // Buttons
   button:
-    "px-8 py-3 border border-purple-600 bg-purple-600 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-lg font-semibold cursor-pointer hover:shadow-sm ss:w-full my-4",
+    "px-8 py-3 border border-purple-600 bg-purple-500 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-lg font-semibold cursor-pointer hover:bg-purple-600 ss:w-full my-4",
   buttonSec:
-    "px-5 py-2.5 border border-green-600 bg-green-600 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-sm font-semibold cursor-pointer hover:shadow-md ss:w-full my-4",
+    "px-5 py-2.5 border border-green-600 bg-purple-500 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-sm font-semibold cursor-pointer hover:bg-purple-600 ss:w-full my-4",
 
   // Inputs
   input:
-    "py-3.5 px-8 bg-transparent rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-base mr-3 font-poppins ss:w-full",
+    "py-3.5 px-8 bg-transparent border-2 border-slate-300 rounded-tl-lg rounded-br-lg rounded-tr-sm rounded-bl-sm text-base mr-3 ss:w-full",
   inputError: "border-red-600 text-red-600",
 
   // Spacing

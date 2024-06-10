@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .clippath {
   clip-path: polygon(0 0,100% 10%,100% 100%,0 90%);
 }

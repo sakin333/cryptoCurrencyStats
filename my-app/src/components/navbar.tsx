@@ -27,7 +27,9 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="md:hidden">
-          <button className={`${styles.button}`}>Connect Wallet</button>
+          <button className={`${styles.button} text-white`}>
+            Connect Wallet
+          </button>
         </div>
 
         {/* sidebar */}
