@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../../style";
 import ExploreImage from "../../assets/explore-img.png";
 
