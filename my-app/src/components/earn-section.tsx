@@ -1,5 +1,5 @@
-import styles from "../../style";
-import ExploreImage from "../../assets/explore-img.png";
+import styles from "../style";
+import ExploreImage from "../assets/explore-img.png";
 
 const EarnSection = () => {
   return (

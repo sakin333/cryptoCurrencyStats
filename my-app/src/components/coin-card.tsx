@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "../../style";
-import { ellipsis } from "../../utils/ellipsis";
+import styles from "../style";
+import { ellipsis } from "../utils/ellipsis";
 
 type CoinCardProps = {
   name: string;
   symbol: string;
-  price: string;
   iconUrl: string;
   change: string;
 };
@@ -13,7 +12,6 @@ type CoinCardProps = {
 const CoinCard: React.FC<CoinCardProps> = ({
   name,
   symbol,
-  price,
   iconUrl,
   change,
 }) => {

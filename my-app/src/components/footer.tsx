@@ -2,7 +2,7 @@ import styles from "../style";
 
 const Footer = () => {
   return (
-    <div className="py-[80px]" id="contacts">
+    <div className="py-[80px] bg-slate-200 w-[100%]" id="contacts">
       <div className={`${styles.boxWidth} ${styles.flexBetween} p-[16px]`}>
         <div className="flex-1">
           <h1 className={`${styles.heading1}`}>

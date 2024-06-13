@@ -1,16 +1,17 @@
 import Navbar from "./components/navbar";
-import Hero from "./pages/homepage/hero";
-import Explore from "./pages/featurepage/explore";
+import { Route, Routes } from "react-router-dom";
+import Homepage from "./pages/homepage/homepage";
 import Footer from "./components/footer";
-import EarnSection from "./pages/earnpage/earn-section";
+import CoinsList from "./pages/coinspage/coins-list";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Explore />
-      <EarnSection />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/coins" element={<CoinsList />} />
+      </Routes>
       <Footer />
     </>
   );

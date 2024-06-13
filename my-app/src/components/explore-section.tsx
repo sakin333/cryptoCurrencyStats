@@ -1,12 +1,15 @@
-import styles from "../../style";
+import styles from "../style";
 import CoinCard from "./coin-card";
-import { RootState } from "../../app/store";
+import { RootState } from "../app/store";
 import { useEffect } from "react";
-import { fetchCoins } from "../../features/coins/coinSlice";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import { fetchCoins } from "../features/coins/coinSlice";
+import { useAppDispatch, useAppSelector } from "../app/hooks";
+import { useNavigate } from "react-router-dom";
 
 const Explore = () => {
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
+
   const { coins, loading, error } = useAppSelector(
     (state: RootState) => state.coins
   );
@@ -36,7 +39,10 @@ const Explore = () => {
             <p className={`${styles.paragraph} my-[16px]`}>
               See all available assets: Cryptocurrencies and NFT's
             </p>
-            <button className={`${styles.button} text-white`}>
+            <button
+              className={`${styles.button} text-white`}
+              onClick={() => navigate("/coins")}
+            >
               See More Coins
             </button>
           </div>
@@ -48,7 +54,6 @@ const Explore = () => {
               key={coin.uuid}
               name={coin.name}
               symbol={coin.symbol}
-              price={parseFloat(coin.price).toFixed(2)}
               iconUrl={coin.iconUrl}
               change={coin.change}
             />

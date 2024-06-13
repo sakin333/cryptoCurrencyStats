@@ -1,6 +1,5 @@
-import React from "react";
-import styles from "../../style";
-import HeroImage from "../../assets/hero-img.png";
+import styles from "../style";
+import HeroImage from "../assets/hero-img.png";
 
 const Hero = () => {
   return (
