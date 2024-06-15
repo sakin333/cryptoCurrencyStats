@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import coinReducer from "../features/coins/coinSlice";
+import coinDetailsReducer from "../features/coinDetails/coinDetailsSlice";
 
 const store = configureStore({
   reducer: {
     coins: coinReducer,
+    coinDetails: coinDetailsReducer,
   },
 });
 
